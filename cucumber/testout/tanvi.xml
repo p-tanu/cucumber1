@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="22.21">
+<testcase classname="Test the skillary app" name="To Test Login with all positive data" time="6.828">
+<system-out><![CDATA[Given I should open the browser skillary....................................passed
+When Enter name "user"......................................................passed
+And Enter password "user"...................................................passed
+And click on login button...................................................passed
+Then I should see the username as "Harry Den"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the skillary app" name="To Test Login with all positive data 2" time="4.896">
+<system-out><![CDATA[Given I should open the browser skillary....................................passed
+When Enter name "user"......................................................passed
+And Enter password "user"...................................................passed
+And click on login button...................................................passed
+Then I should see the username as "Harry Den"...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the skillary app" name="To Test Login with all positive data 3" time="5.179">
+<system-out><![CDATA[Given I should open the browser skillary....................................passed
+When Enter name "admin".....................................................passed
+And Enter password "admin"..................................................passed
+And click on login button...................................................passed
+Then I should see the username as "SkillRary Admin".........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test the skillary app" name="To test the Login with invalid credentials" time="4.988">
+<system-out><![CDATA[Given I should open the browser skillary....................................passed
+When Enter name "tanvi".....................................................passed
+And Enter password "tanvi"..................................................passed
+And click on login button...................................................passed
+Then I should navigate to the page "Register"...............................passed
+]]></system-out>
+</testcase>
+</testsuite>
